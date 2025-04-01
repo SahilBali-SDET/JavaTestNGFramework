@@ -1,5 +1,6 @@
 package com.orangeHRM.pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -12,7 +13,7 @@ public class LoginPage {
 
 	WebDriver driver;
 	private ActionDriver actionDriver;
-
+	public static final Logger logger = BaseClass.logger;
 	private By orangeHRMLogo = By.cssSelector(".orangehrm-login-logo");
 	private By usernameField = By.cssSelector("[name='username']");
 	private By passwordField = By.cssSelector("[name='password']");
@@ -74,6 +75,7 @@ public class LoginPage {
 		actionDriver.enterTextInTextField(usernameField, username);
 		actionDriver.enterTextInTextField(passwordField, password);
 		actionDriver.clickOnElement(loginButton);
+		logger.info("Logged in with username: " + username + " and password: " + password);
 	}
 	
 	/**

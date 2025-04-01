@@ -2,6 +2,8 @@ package com.orangeHRM.actionDriver;
 
 import java.time.Duration;
 import java.util.List;
+
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -15,11 +17,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.orangeHRM.base.BaseClass;
+import com.orangeHRM.utilities.LoggerManager;
 import com.orangeHRM.utilities.Utility;
 
 public class ActionDriver {
 	
 	private WebDriver driver;
+	public static final Logger logger = BaseClass.logger;
 	
 	public ActionDriver(WebDriver driver) {
 		this.driver = driver;
@@ -129,6 +134,7 @@ public class ActionDriver {
     public void clickOnElement(By locator) {
         WebElement element = waitAndFindElement(locator);
         element.click();
+        logger.info("Clicked on element: " + locator);
     }
 
     // Method to enter text in text field
@@ -137,15 +143,18 @@ public class ActionDriver {
         element.sendKeys(Keys.CONTROL+"a");
         element.sendKeys(Keys.DELETE);
         element.sendKeys(text);
+        logger.info("Entered text: " + text + " in element: " + locator);
     }
 
     // Method to get text of an element
     public String getElementText(By locator) {
+    	logger.info("Getting text of element: " + locator);
         return waitAndFindElement(locator).getText();
     }
 
     // Method to get attribute of an web element
     public String getElementAttribute(By locator, String attribute) {
+    	logger.info("Getting attribute: " + attribute + " of element: " + locator);
     	return waitAndFindElement(locator).getDomAttribute(attribute);
     }
 
@@ -182,7 +191,7 @@ public class ActionDriver {
 		String filePath = System.getProperty("user.dir") + "/src/test/resources/testData/" + fileName;
 		WebElement element = waitAndFindElement(locator);
 		element.sendKeys(filePath);
-		System.out.println("Uploaded file " + fileName + " successfully!");
+		logger.info("Uploaded file " + fileName + " successfully!");
 	}
 
 	// Method to select option from Select dropdown by text
@@ -229,18 +238,21 @@ public class ActionDriver {
                 break;
             }
         }
+        logger.info("Switched to new window");
     }
 
     // Method to switch to the main window
     public void switchToMainWindow() {
         String mainWindow = driver.getWindowHandles().iterator().next();
         driver.switchTo().window(mainWindow);
+        logger.info("Switched to main window");
     }
 
     // Method to close current window and switch back to the main window
     public void closeCurrentWindow() {
         driver.close();
         switchToMainWindow();
+        logger.info("Closed current window and switched back to main window");
     }
     
     // Handle Frames
@@ -248,27 +260,32 @@ public class ActionDriver {
     /** Switch to the frame by index */
     public void switchToFrameByIndex(int frameIndex) {
         driver.switchTo().frame(frameIndex);
+        logger.info("Switched to frame: " + frameIndex);
     }
 
     /** Switch to the frame by name */
     public void switchToFrameByName(String frameName) {
         driver.switchTo().frame(frameName);
+        logger.info("Switched to frame: " + frameName);
     }
 
     /** Switch to the frame by ID */
     public void switchToFrameById(String frameId) {
         driver.switchTo().frame(frameId);
+        logger.info("Switched to frame: " + frameId);
     }
 
     /** Switch to the frame by locator */
     public void switchToFrameByLocator(By frameLocator) {
         WebElement frame = driver.findElement(frameLocator);
         driver.switchTo().frame(frame);
+        logger.info("Switched to frame: " + frameLocator);
     }
 
     /** Switch back to the main content */
     public void switchToDefaultContent() {
         driver.switchTo().defaultContent();
+        logger.info("Switched back to default content");
     }
     
     // Action Class
@@ -278,20 +295,23 @@ public class ActionDriver {
     	Actions action = new Actions(driver);
     	WebElement element = waitAndFindElement(locator);
     	action.moveToElement(element).perform();	
+    	logger.info("Hovered over element: " + locator);
     }
     
     // Hover and click on element
     public void hoverAndClickOnElement(By locator) {
     	Actions action = new Actions(driver);
     	WebElement element = waitAndFindElement(locator);
-    	action.moveToElement(element).click().perform();	
+    	action.moveToElement(element).click().perform();
+    	logger.info("Hovered and clicked on element: " + locator);
     }
     
     // Right click on element
     public void rightClickOnElement(By locator) {
     	Actions action = new Actions(driver);
     	WebElement element = waitAndFindElement(locator);
-    	action.contextClick(element).perform();	
+    	action.contextClick(element).perform();
+    	logger.info("Right clicked on element: " + locator);
     }
     
     // double click on element
@@ -299,6 +319,7 @@ public class ActionDriver {
     	Actions action = new Actions(driver);
     	WebElement element = waitAndFindElement(locator);
     	action.doubleClick(element).perform();	
+    	logger.info("Double clicked on element: " + locator);
     }
     
     // enter word in capital letter
@@ -338,10 +359,10 @@ public class ActionDriver {
 			}
 			else {
 				fieldType = "Unknown";
-				System.out.println("Not able to identifty Field type, please use tagName method");
+				logger.error("Not able to identifty Field type, please use tagName method");
 			}
         }
-        System.out.println("Field: " + fieldName + " -> Type: " + fieldType);
+        logger.info("Field: " + fieldName + " -> Type: " + fieldType);
         return fieldType;
     }
 

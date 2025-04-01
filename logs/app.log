@@ -1,0 +1,173 @@
+2025-04-01 20:12:42 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:12:42 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:12:45 [main] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:12:50 [main] INFO  BaseClass - browser configured successfully
+2025-04-01 20:12:53 [main] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:12:53 [main] TRACE BaseClass - Trace message
+2025-04-01 20:12:53 [main] DEBUG BaseClass - Debug message
+2025-04-01 20:12:53 [main] WARN  BaseClass - Warning message
+2025-04-01 20:12:53 [main] INFO  BaseClass - ActionDriver initialized
+2025-04-01 20:12:53 [main] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:12:53 [main] INFO  ActionDriver - Entered text: 123 in element: By.cssSelector: [name='password']
+2025-04-01 20:12:54 [main] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:12:54 [main] INFO  ActionDriver - Getting text of element: By.cssSelector: .orangehrm-login-error p.oxd-alert-content-text
+2025-04-01 20:12:54 [main] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:12:54 [main] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:12:54 [main] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:16:00 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:16:00 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:16:01 [main] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:16:04 [main] INFO  BaseClass - browser configured successfully
+2025-04-01 20:16:06 [main] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:16:06 [main] INFO  BaseClass - ActionDriver initialized
+2025-04-01 20:16:07 [main] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:16:07 [main] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:16:07 [main] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:16:07 [main] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:16:12 [main] INFO  ActionDriver - Entered text: Admin in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:16:12 [main] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
+2025-04-01 20:16:18 [main] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Reset']
+2025-04-01 20:16:18 [main] INFO  ActionDriver - Entered text: 123 in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:16:18 [main] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
+2025-04-01 20:30:04 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:30:04 [TestNG-test=Login Test-1] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:30:05 [TestNG-test=Login Test-1] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:30:08 [TestNG-test=Login Test-1] INFO  BaseClass - browser configured successfully
+2025-04-01 20:30:10 [TestNG-test=Login Test-1] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:30:10 [TestNG-test=Login Test-1] INFO  BaseClass - ActionDriver initialized
+2025-04-01 20:30:11 [TestNG-test=Login Test-1] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:30:11 [TestNG-test=Login Test-1] INFO  ActionDriver - Entered text: 123 in element: By.cssSelector: [name='password']
+2025-04-01 20:30:11 [TestNG-test=Login Test-1] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:30:11 [TestNG-test=Login Test-1] INFO  LoginPage - Logged in with username: Admin and password: 123
+2025-04-01 20:30:13 [TestNG-test=Login Test-1] INFO  ActionDriver - Getting text of element: By.cssSelector: .orangehrm-login-error p.oxd-alert-content-text
+2025-04-01 20:30:13 [TestNG-test=Login Test-1] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:30:13 [TestNG-test=Login Test-1] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:30:13 [TestNG-test=Login Test-1] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:30:13 [TestNG-test=Login Test-1] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:30:14 [TestNG-test=Admin Test-1] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:30:15 [TestNG-test=Admin Test-1] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:30:18 [TestNG-test=Admin Test-1] INFO  BaseClass - browser configured successfully
+2025-04-01 20:30:20 [TestNG-test=Admin Test-1] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:30:20 [TestNG-test=Admin Test-1] INFO  BaseClass - ActionDriver initialized
+2025-04-01 20:30:21 [TestNG-test=Admin Test-1] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:30:21 [TestNG-test=Admin Test-1] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:30:21 [TestNG-test=Admin Test-1] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:30:21 [TestNG-test=Admin Test-1] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:30:25 [TestNG-test=Admin Test-1] INFO  ActionDriver - Entered text: Admin in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:30:25 [TestNG-test=Admin Test-1] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
+2025-04-01 20:30:32 [TestNG-test=Admin Test-1] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Reset']
+2025-04-01 20:30:32 [TestNG-test=Admin Test-1] INFO  ActionDriver - Entered text: 123 in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:30:32 [TestNG-test=Admin Test-1] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
+2025-04-01 20:33:33 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:33:33 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:33:33 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:33:35 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:33:35 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:33:38 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - browser configured successfully
+2025-04-01 20:33:40 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:33:40 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - ActionDriver initialized38
+2025-04-01 20:33:41 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - browser configured successfully
+2025-04-01 20:33:41 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:33:41 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: 123 in element: By.cssSelector: [name='password']
+2025-04-01 20:33:41 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:33:41 [TestNG-test=OrangeHRM Test-2] INFO  LoginPage - Logged in with username: Admin and password: 123
+2025-04-01 20:33:43 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:33:43 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Getting text of element: By.cssSelector: .orangehrm-login-error p.oxd-alert-content-text
+2025-04-01 20:33:43 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:33:43 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:33:43 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:33:43 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:33:43 [TestNG-test=OrangeHRM Test-1] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:33:54 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:33:55 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:33:58 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - browser configured successfully
+2025-04-01 20:34:00 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:34:00 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - ActionDriver initialized38
+2025-04-01 20:34:01 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:34:01 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:34:01 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:34:01 [TestNG-test=OrangeHRM Test-2] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:34:05 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: Admin in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:34:05 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
+2025-04-01 20:34:11 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Reset']
+2025-04-01 20:34:11 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: 123 in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:34:11 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
+2025-04-01 20:46:43 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:46:43 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Setting up WebDriver for: LoginPageTest
+2025-04-01 20:46:43 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Setting up WebDriver for: LeavePageTest
+2025-04-01 20:46:43 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:46:43 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Setting up WebDriver for: AdminPageTest
+2025-04-01 20:46:43 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:46:43 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:46:45 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:46:45 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:46:45 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:46:50 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - browser configured successfully
+2025-04-01 20:46:50 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - browser configured successfully
+2025-04-01 20:46:50 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - browser configured successfully
+2025-04-01 20:46:52 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:46:52 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:46:52 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:48:42 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:48:42 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Setting up WebDriver for: AdminPageTest
+2025-04-01 20:48:42 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Setting up WebDriver for: LoginPageTest
+2025-04-01 20:48:42 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Setting up WebDriver for: LeavePageTest
+2025-04-01 20:48:42 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:48:42 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:48:42 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:48:44 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:48:44 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:48:44 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:48:49 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - browser configured successfully
+2025-04-01 20:48:49 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - browser configured successfully
+2025-04-01 20:48:49 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - browser configured successfully
+2025-04-01 20:48:51 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:48:51 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:48:51 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:51:40 [main] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:51:40 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Setting up WebDriver for: LoginPageTest
+2025-04-01 20:51:40 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Setting up WebDriver for: AdminPageTest
+2025-04-01 20:51:40 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Setting up WebDriver for: LeavePageTest
+2025-04-01 20:51:40 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:51:40 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:51:40 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Config file loaded successfully
+2025-04-01 20:51:41 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:51:41 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:51:41 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - Chrome browser initialized
+2025-04-01 20:51:45 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - browser configured successfully
+2025-04-01 20:51:45 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - browser configured successfully
+2025-04-01 20:51:46 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - browser configured successfully
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-1] INFO  BaseClass - ActionDriver initialized, Thread id is: 38
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-2] INFO  BaseClass - ActionDriver initialized, Thread id is: 39
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: 123 in element: By.cssSelector: [name='password']
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:51:47 [TestNG-test=OrangeHRM Test-2] INFO  LoginPage - Logged in with username: Admin and password: 123
+2025-04-01 20:51:48 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:51:48 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:51:48 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:51:48 [TestNG-test=OrangeHRM Test-1] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:51:48 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - WebDriver setup completed
+2025-04-01 20:51:48 [TestNG-test=OrangeHRM Test-3] INFO  BaseClass - ActionDriver initialized, Thread id is: 40
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-3] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Getting text of element: By.cssSelector: .orangehrm-login-error p.oxd-alert-content-text
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Entered text: admin123 in element: By.cssSelector: [name='password']
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Clicked on element: By.cssSelector: .oxd-userdropdown-tab
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-2] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:51:49 [TestNG-test=OrangeHRM Test-2] INFO  LoginPage - Logged in with username: Admin and password: admin123
+2025-04-01 20:51:52 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Entered text: Admin in element: By.cssSelector: [name='username']
+2025-04-01 20:51:52 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Entered text: 123 in element: By.cssSelector: [name='password']
+2025-04-01 20:51:52 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Clicked on element: By.cssSelector: button[type='submit']
+2025-04-01 20:51:52 [TestNG-test=OrangeHRM Test-1] INFO  LoginPage - Logged in with username: Admin and password: 123
+2025-04-01 20:51:53 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Entered text: Admin in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:51:53 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
+2025-04-01 20:51:54 [TestNG-test=OrangeHRM Test-1] INFO  ActionDriver - Getting text of element: By.cssSelector: .orangehrm-login-error p.oxd-alert-content-text
+2025-04-01 20:51:59 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Reset']
+2025-04-01 20:51:59 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Entered text: 123 in element: By.xpath: //div[label[text()='Username']]//following-sibling::div/input
+2025-04-01 20:51:59 [TestNG-test=OrangeHRM Test-3] INFO  ActionDriver - Clicked on element: By.xpath: //button[normalize-space()='Search']
